@@ -6,12 +6,14 @@
         <!-- Link to Poppins font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
         <title>
             jacobkingsley.me
         </title>
     </head>
+
     <body>
-        <section class="welcome-page">
+        <section class="navbar-container-container">
             <nav class="navbar">
                 <ul class="navbar-container">
                     <li class="navbar-item" id="logo-container">
@@ -19,30 +21,39 @@
                     </li>
                     <div class="second-navbar">
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="schoolOffClickSamples()">Samples Menus and Pricing</div>
+                            <div class="navbar-text" onclick="scroolOffClickSamples()">Samples Menus and Pricing</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="schoolOffClickPictures()">Pictures</div>
+                            <div class="navbar-text" onclick="scroolOffClickPictures()">Pictures</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="schoolOffClickReviews()">Reviews</div>
+                            <div class="navbar-text" onclick="scroolOffClickReviews()">Reviews</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="schoolOffClickContactMe()">Contact Me</div>
+                            <div class="navbar-text" onclick="scroolOffClickContactMe()">Contact Me</div>
                         </li>
                     </div>
                 </ul>
             </nav>
-            <div class="welcome-page-items-flexbox">
+        </section>
 
-            </div>
-            <div onclick="scrollOffClickSamples()" class="arrow-flexbox">
-                <div class="samples-arrow">
-                    Sample Menus and Pricing
+        <section class="welcome-page-container">
+            <div class="welcome-page-items-flexbox">
+                <div class="welcome-page-flexbox">
+                    <div class="welcome-page-text-container">
+                        <div class="title">Greeting Here</div>
+                        <div class="about">About Me Goes Here</div>
+                    </div>
                 </div>
-                <i class="arrow-down"></i>
+                <div class="welcome-image-container">
+                </div>
+                <div onclick="scrollOffClickSamples()" class="arrow-flexbox">
+                    <div class="samples-arrow">
+                        Sample Menus and Pricing
+                    </div>
+                </div>
             </div>
-            
+
         </section>
         <section class="samples">
             <div class="samples-container">
@@ -52,9 +63,9 @@
                 <div class="samples-arrow">
                     Pictures
                 </div>
-                <i class="arrow-down"></i>
             </div>
         </section>
+
         <section class="pictures">
             <div class="pictures-container">
                 <h1>Pictures</h1>
@@ -63,9 +74,9 @@
                 <div class="samples-arrow">
                     Reviews
                 </div>
-                <i class="arrow-down"></i>
             </div>
         </section>
+
         <section class="reviews">
             <div class="reviews-container">
                 <h1>Reviews</h1>
@@ -74,9 +85,9 @@
                 <div class="samples-arrow">
                     Contact Me
                 </div>
-                <i class="arrow-down"></i>
             </div>
         </section>
+
         <section class="contact">
             <div class="contact-container">
                 <h1>Contact Me!</h1>

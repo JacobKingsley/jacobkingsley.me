@@ -8,14 +8,14 @@ html{
 }
 
 body{
-    color: white;
+    color: rgb(31, 29, 190);
     margin: 0px;
     padding: 0px;
     height: 100%;
 }
 
 nav{
-    background: purple;
+    background: rgb(102, 3, 168);
     position: absolute;
     width: 100%;
     margin: 0px;
@@ -27,6 +27,11 @@ nav{
     transition: 300ms color ease, 300ms font-weight ease;
 }
 
+#logo{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
 ul{
     list-style-type: none;
     height: 250px;
@@ -35,20 +40,83 @@ ul{
 
 ul.navbar-container{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
     height: 100%;
     margin: 0px;
     padding: 0px;
     transition: 300ms all ease
 }
 
+
+
 .second-navbar{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content: space-around;
     margin: 0px;
     padding: 0px;
-    width: 65%;
+    width: 70%;
+}
+
+.second-navbar:hover .navbar-text:hover{
+    color: yellow;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.welcome-page-text-container{
+    width:auto;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.welcome-page-container{
+    background-color: rgb(139, 94, 211);
+    background-size: cover;
+    height: 80vh;
+    width: auto;
+    background-position-y: 250em;
+
+}
+
+.welcome-page-items-flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.samples-container{
+    background-color: rgb(139, 94, 211);
+    background-size: cover;
+    height: 80vh;
+    width: auto;
+    background-position-y: 250em;
+}
+
+.pictures-container{
+    background-color: rgb(139, 94, 211);
+    background-size: cover;
+    height: 80vh;
+    width: auto;
+    background-position-y: 250em;
+}
+
+.reviews-container{
+    background-color: rgb(139, 94, 211);
+    background-size: cover;
+    height: 80vh;
+    width: auto;
+    background-position-y: 250em;
+}
+
+.contact-container{
+    background-color: rgb(139, 94, 211);
+    background-size: cover;
+    height: 80vh;
+    width: auto;
+    background-position-y: 250em;
 }
