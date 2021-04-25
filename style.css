@@ -33,7 +33,7 @@ ul{
     margin-bottom: 40px
 }
 
-ul.navbar_container{
+ul.navbar-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,4 +42,13 @@ ul.navbar_container{
     margin: 0px;
     padding: 0px;
     transition: 300ms all ease
+}
+
+.second-navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    width: 65%;
 }
