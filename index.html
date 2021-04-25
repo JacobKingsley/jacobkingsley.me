@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Link to css file -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Link to Poppins font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
         <title>
             jacobkingsley.me
         </title>
     </head>
     <body>
-        This is a test
+        <section class="welcome-page">
+            <nav class="navbar">
+                <ul class="navbar-container">
+                    <li class="navbar-item" id="logo-container">
+                        <div class="navbar-text" id="logo"> Nancy Poole's Cooking</div>
+                    </li>
+                    <div class="second-navbar">
+                        <li class="navbar-item">
+                            <div class="navbar-text" onclick="schoolOffClickSamples()">Samples Menus and Pricing</div>
+                        </li>
+                        <li class="navbar-item">
+                            <div class="navbar-text" onclick="schoolOffClickPictures()">Pictures</div>
+                        </li>
+                        <li class="navbar-item">
+                            <div class="navbar-text" onclick="schoolOffClickReviews()">Reviews</div>
+                        </li>
+                        <li class="navbar-item">
+                            <div class="navbar-text" onclick="schoolOffClickContactMe()">Contact Me</div>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+            <div class="welcome-page-items-flexbox">
+
+            </div>
+            <div onclick="scrollOffClickSamples()" class="arrow-flexbox">
+                <div class="samples-arrow">
+                    Sample Menus and Pricing
+                </div>
+                <i class="arrow-down"></i>
+            </div>
+            
+        </section>
+        <section class="samples">
+            <div class="samples-container">
+                <h1>Sample Menus and Pricing</h1>
+            </div>
+            <div onclick="scrollOffClickPictures()" class="arrow-flexbox">
+                <div class="samples-arrow">
+                    Pictures
+                </div>
+                <i class="arrow-down"></i>
+            </div>
+        </section>
+        <section class="pictures">
+            <div class="pictures-container">
+                <h1>Pictures</h1>
+            </div>
+            <div onclick="scrollOffClickReviews()" class="arrow-flexbox">
+                <div class="samples-arrow">
+                    Reviews
+                </div>
+                <i class="arrow-down"></i>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews-container">
+                <h1>Reviews</h1>
+            </div>
+            <div onclick="scrollOffClickContactMe()" class="arrow-flexbox">
+                <div class="samples-arrow">
+                    Contact Me
+                </div>
+                <i class="arrow-down"></i>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact-container">
+                <h1>Contact Me!</h1>
+            </div>
+            
+        </section>
+        
     </body>
 </html>

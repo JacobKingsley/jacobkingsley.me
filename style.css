@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    height: 100%
+}
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+nav{
+    background: purple;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 4em;
+}
+.navbar-text{
+    color: white;
+    transition: 300ms color ease, 300ms font-weight ease;
+}
+
+ul{
+    list-style-type: none;
+    height: 250px;
+    margin-bottom: 40px
+}
+
+ul.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    transition: 300ms all ease
+}
