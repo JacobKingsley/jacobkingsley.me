@@ -6,7 +6,7 @@
         <!-- Link to Poppins font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-        <script src="script.js"></script>
+        
         <title>
             jacobkingsley.me
         </title>
@@ -21,79 +21,138 @@
                     </li>
                     <div class="second-navbar">
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="scroolOffClickSamples()">Samples Menus and Pricing</div>
+                            <div class="navbar-text" onclick="scrollOffClickSamples()">Samples Menus and Pricing</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="scroolOffClickPictures()">Pictures</div>
+                            <div class="navbar-text" onclick="scrollOffClickPictures()">Pictures</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="scroolOffClickReviews()">Reviews</div>
+                            <div class="navbar-text" onclick="scrollOffClickReviews()">Reviews</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="scroolOffClickContactMe()">Contact Me</div>
+                            <div class="navbar-text" onclick="scrollOffClickContactMe()">Contact Me</div>
                         </li>
                     </div>
                 </ul>
             </nav>
         </section>
-
+        
         <section class="welcome-page-container">
             <div class="welcome-page-items-flexbox">
                 <div class="welcome-page-flexbox">
                     <div class="welcome-page-text-container">
-                        <div class="title">Greeting Here</div>
+                        <h1 class="title">Greeting Here</h1>
                         <div class="about">About Me Goes Here</div>
                     </div>
                 </div>
                 <div class="welcome-image-container">
                 </div>
-                <div onclick="scrollOffClickSamples()" class="arrow-flexbox">
-                    <div class="samples-arrow">
-                        Sample Menus and Pricing
-                    </div>
-                </div>
             </div>
-
         </section>
+        <!-- Samples Section -->
         <section class="samples">
             <div class="samples-container">
-                <h1>Sample Menus and Pricing</h1>
-            </div>
-            <div onclick="scrollOffClickPictures()" class="arrow-flexbox">
-                <div class="samples-arrow">
-                    Pictures
+                <div class="samples-flex-box">
+                    <div class="samples-text_-ontainer">
+                        <h1 class="samples-title">Sample Menus and Pricing</h1>
+                    </div>
+                    <div class="top-flex-box">
+                        <div class="brunch">
+
+                        </div>
+                        <div class="lunch">
+                        </div>
+                    </div>
+                    <div class="bottom-flex-box">
+                        <div class="dinner">
+
+                        </div>
+                        <div class="dessert">
+    
+                        </div>
+                    </div>  
                 </div>
+                
+                
             </div>
         </section>
-
+        <!-- Pictures Section -->
         <section class="pictures">
             <div class="pictures-container">
-                <h1>Pictures</h1>
-            </div>
-            <div onclick="scrollOffClickReviews()" class="arrow-flexbox">
-                <div class="samples-arrow">
-                    Reviews
-                </div>
+                <h1 class="pictures-title">Pictures</h1>
             </div>
         </section>
-
+        <!-- Reviews Section -->
         <section class="reviews">
             <div class="reviews-container">
-                <h1>Reviews</h1>
-            </div>
-            <div onclick="scrollOffClickContactMe()" class="arrow-flexbox">
-                <div class="samples-arrow">
-                    Contact Me
+                <h1 class="reviews-title">Reviews</h1>
+                <div class="carosel">
+                    <ul class="carosel-container">
+                        <li id="carosel-item-1">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                </div>
+                            </div>
+                        </li>
+                        <li id="carosel-item-2">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                    practice review
+                                    line 2
+                                    3
+                                </div>
+                            </div>
+                        </li>
+                        <li id="carosel-item-3">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                </div>
+                            </div>
+                        </li>
+                        <li id="carosel-item-4">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                </div>
+                            </div>
+                        </li>
+                        <li id="carosel-item-5">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                </div>
+                            </div>
+                        </li>
+                        <li id="carosel-item-6">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                </div>
+                            </div>
+                        </li>
+                        <li id="carosel-item-7">
+                            <div class="carosel-box">
+                                <div class="review-box">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
-
+        <!-- Contact Section -->
         <section class="contact">
             <div class="contact-container">
-                <h1>Contact Me!</h1>
+                <h1 class="contact-title">Contact Me!</h1>
+                <div class="contact-flex">
+                    <h3>Email: nancyepoole@gmail.com</h3>
+                    <h3>Phone: (781) 956-9640</h3>
+                    <h3>Nextdoor App: insert username</h3>
+                </div>
+                <div class="footer">
+                    Website built by Jacob Kingsley April 2021
+                </div>
+                <!-- for anyone reading this, I built this website with no prior experience -->
+                <!-- in html or css, so I used this as a first learning opportunity -->
             </div>
-            
         </section>
-        
+        <script src="script.js"></script>
     </body>
 </html>

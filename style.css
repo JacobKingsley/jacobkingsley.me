@@ -8,7 +8,8 @@ html{
 }
 
 body{
-    color: rgb(31, 29, 190);
+    color: white;
+    background-color: rgb(255, 255, 107);
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -20,7 +21,7 @@ nav{
     width: 100%;
     margin: 0px;
     padding: 0px;
-    height: 4em;
+    height: 60px;
 }
 .navbar-text{
     color: white;
@@ -66,20 +67,18 @@ ul.navbar-container{
     cursor: pointer;
 }
 
-.welcome-page-text-container{
-    width:auto;
-    height: 400px;
-    text-align: center;
-    margin-top: 100px;
-}
-
 .welcome-page-container{
     background-color: rgb(139, 94, 211);
     background-size: cover;
     height: 80vh;
     width: auto;
-    background-position-y: 250em;
+}
 
+.welcome-page-text-container{
+    width:auto;
+    height: 400px;
+    text-align: center;
+    margin-top: 75px;
 }
 
 .welcome-page-items-flexbox{
@@ -90,33 +89,117 @@ ul.navbar-container{
 }
 
 .samples-container{
-    background-color: rgb(139, 94, 211);
-    background-size: cover;
-    height: 80vh;
+    background-color: rgb(102, 3, 168);
+    background-size: auto;
+    height: 700px;
     width: auto;
-    background-position-y: 250em;
+}
+
+.samples-title{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 15px;
+}
+
+.samples-flex-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top-flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom-flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .pictures-container{
     background-color: rgb(139, 94, 211);
     background-size: cover;
-    height: 80vh;
+    height: 500px;
     width: auto;
-    background-position-y: 250em;
+}
+
+.pictures-title{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 15px;
 }
 
 .reviews-container{
-    background-color: rgb(139, 94, 211);
+    background-color: rgb(102, 3, 168);
     background-size: cover;
-    height: 80vh;
+    height: 400px;
     width: auto;
-    background-position-y: 250em;
+}
+
+.reviews-title{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 15px;
+}
+
+.carosel{
+    width: 100%;
+}
+
+.carosel-container{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0px;
+    align-items: center;
+    height: 300px
+}
+
+.carosel-box{
+    position: relative;
+    display: inline-block;
+}
+
+.review-box{
+    height: 300px;
+    max-width: 100px;
+    border: solid 2px yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .contact-container{
     background-color: rgb(139, 94, 211);
     background-size: cover;
-    height: 80vh;
+    height: 200px;
     width: auto;
-    background-position-y: 250em;
+}
+
+.contact-title{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 15px;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
 }

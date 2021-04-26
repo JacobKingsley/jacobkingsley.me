@@ -1,36 +1,24 @@
-button = document.getElementById("go-up");
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    button.style.display = "block";
-  } else {
-    button.style.display = "none";
-  }
-}
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  } 
-
+//code largely adapted from the script file for jordansanz.me since
+//I had not learned js but wanted this functionality
+//adapted to fit this website
 
 function scrollOffClickSamples(){
-  document.querySelector('.experience-background').scrollIntoView({ 
+  document.querySelector('.samples-container').scrollIntoView({ 
     behavior: 'smooth' 
   })
 }
 function scrollOffClickPictures(){
-  document.querySelector('.portfolio-subtitle').scrollIntoView({ 
+  document.querySelector('.pictures-container').scrollIntoView({ 
     behavior: 'smooth' 
   })
 }
 function scrollOffClickReviews(){
-  document.querySelector('#contact').scrollIntoView({ 
+  document.querySelector('.reviews-container').scrollIntoView({ 
     behavior: 'smooth' 
   }) 
 }
 function scrollOffClickContactMe(){
-    document.querySelector('#contact').scrollIntoView({ 
+    document.querySelector('.contact-container').scrollIntoView({ 
       behavior: 'smooth' 
     }) 
   }
