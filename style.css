@@ -91,7 +91,7 @@ ul.navbar-container{
 .samples-container{
     background-color: rgb(102, 3, 168);
     background-size: auto;
-    height: 700px;
+    height: 900px;
     width: auto;
 }
 
@@ -101,16 +101,19 @@ ul.navbar-container{
     padding-top: 15px;
 }
 
+
 .samples-flex-box{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
 
 .top-flex-box{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .bottom-flex-box{
@@ -119,21 +122,25 @@ ul.navbar-container{
     justify-content: space-around;
 }
 
-.pictures-container{
-    background-color: rgb(139, 94, 211);
-    background-size: cover;
-    height: 500px;
-    width: auto;
+
+.meal-title{
+    text-align: center;
 }
 
-.pictures-title{
+.meal-paragraph{
     text-align: center;
-    margin-top: 3px;
-    padding-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.meal-image-box{
+    width: 300px;
+    height: 300px;
+    
 }
 
 .reviews-container{
-    background-color: rgb(102, 3, 168);
+    background-color:rgb(139, 94, 211);
     background-size: cover;
     height: 400px;
     width: auto;
@@ -156,7 +163,6 @@ ul.navbar-container{
     justify-content: space-between;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
     padding: 0px;
     align-items: center;
     height: 300px
@@ -165,16 +171,39 @@ ul.navbar-container{
 .carosel-box{
     position: relative;
     display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(102, 3, 168);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
 }
 
 .review-box{
-    height: 300px;
-    max-width: 100px;
-    border: solid 2px yellow;
-    margin-left: 10px;
-    margin-right: 10px;
     text-align: center;
+    justify-items: center;
+    vertical-align:bottom;
     word-wrap: break-word;
+    margin: 15px;
+}
+
+.carosel-box:hover{
+    color:yellow;
+}
+
+
+.pictures-container{
+    background-color: rgb(102, 3, 168);
+    background-size: cover;
+    height: 500px;
+    width: auto;
+}
+
+.pictures-title{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 15px;
 }
 
 .contact-container{
