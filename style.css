@@ -30,7 +30,7 @@ nav{
 
 #logo{
     margin-left: 25px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 ul{
@@ -70,7 +70,7 @@ ul.navbar-container{
 .welcome-page-container{
     background-color: rgb(139, 94, 211);
     background-size: cover;
-    height: 80vh;
+    height:450px;
     width: auto;
 }
 
@@ -88,10 +88,16 @@ ul.navbar-container{
     align-items: center;
 }
 
+.about{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
 .samples-container{
     background-color: rgb(102, 3, 168);
     background-size: auto;
-    height: 1200px;
+    height: 650px;
     width: auto;
 }
 
@@ -99,24 +105,16 @@ ul.navbar-container{
     text-align: center;
     margin-top: 3px;
     padding-top: 15px;
+    margin-bottom: 3px;
+}
+
+.samples-text{
+    text-align: center;
+    margin:3px;
 }
 
 
 .samples-flex-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-}
-
-.top-flex-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-
-.bottom-flex-box{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -134,7 +132,7 @@ ul.navbar-container{
 }
 
 .meal-image-box{
-    width: 400px;
+    width: 300px;
     height: 400px;
 
 }
@@ -231,4 +229,8 @@ ul.navbar-container{
     font-size: 10px;
     text-align: center;
     margin-top: 40px;
+}
+
+@media only screen and (max-width: 640px) {
+
 }
