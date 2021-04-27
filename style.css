@@ -91,7 +91,7 @@ ul.navbar-container{
 .samples-container{
     background-color: rgb(102, 3, 168);
     background-size: auto;
-    height: 900px;
+    height: 1200px;
     width: auto;
 }
 
@@ -134,9 +134,9 @@ ul.navbar-container{
 }
 
 .meal-image-box{
-    width: 300px;
-    height: 300px;
-    
+    width: 400px;
+    height: 400px;
+
 }
 
 .reviews-container{
