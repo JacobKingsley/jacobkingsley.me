@@ -3,17 +3,17 @@
 //adapted to fit this website
 
 function scrollOffClickSamples(){
-  document.querySelector('.samples-container').scrollIntoView({ 
+  document.querySelector('.bio-container').scrollIntoView({ 
     behavior: 'smooth' 
   })
 }
 function scrollOffClickPictures(){
-  document.querySelector('.pictures-container').scrollIntoView({ 
+  document.querySelector('.skills-container').scrollIntoView({ 
     behavior: 'smooth' 
   })
 }
 function scrollOffClickReviews(){
-  document.querySelector('.reviews-container').scrollIntoView({ 
+  document.querySelector('.portfolio-container').scrollIntoView({ 
     behavior: 'smooth' 
   }) 
 }

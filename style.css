@@ -9,14 +9,14 @@ html{
 
 body{
     color: white;
-    background-color: rgb(255, 255, 107);
+    background-color: rgb(24, 155, 74);
     margin: 0px;
     padding: 0px;
     height: 100%;
 }
 
 nav{
-    background: rgb(102, 3, 168);
+    background: rgb(2, 36, 100);
     position: absolute;
     width: 100%;
     margin: 0px;
@@ -58,25 +58,40 @@ ul.navbar-container{
     justify-content: space-around;
     margin: 0px;
     padding: 0px;
-    width: 70%;
+    width: 60%;
 }
 
 .second-navbar:hover .navbar-text:hover{
-    color: yellow;
+    color: rgb(16, 190, 31);
     font-weight: bolder;
     cursor: pointer;
 }
 
+video{
+    position: fixed;
+    width: auto;
+    height: 100%;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+#video-background{
+    overflow: hidden;
+}
+
 .welcome-page-container{
-    background-color: rgb(139, 94, 211);
     background-size: cover;
-    height:450px;
+    height:800px;
     width: auto;
 }
 
 .welcome-page-text-container{
     width:auto;
-    height: 400px;
+    height: 800px;
     text-align: center;
     margin-top: 75px;
 }
@@ -94,57 +109,44 @@ ul.navbar-container{
 
 }
 
-.samples-container{
-    background-color: rgb(102, 3, 168);
+.bio-container{
     background-size: auto;
     height: 650px;
     width: auto;
 }
 
-.samples-title{
+.bio-title{
     text-align: center;
     margin-top: 3px;
     padding-top: 15px;
     margin-bottom: 3px;
 }
 
-.samples-text{
+.bio-text{
     text-align: center;
     margin:3px;
 }
 
-
-.samples-flex-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.skills-container{
+    background-size: cover;
+    height: 500px;
+    width: auto;
 }
 
-
-.meal-title{
+.skills-title{
     text-align: center;
+    margin-top: 3px;
+    padding-top: 15px;
 }
 
-.meal-paragraph{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.meal-image-box{
-    width: 300px;
-    height: 400px;
-
-}
-
-.reviews-container{
+.portfolio-container{
     background-color:rgb(139, 94, 211);
     background-size: cover;
     height: 400px;
     width: auto;
 }
 
-.reviews-title{
+.portfolio-title{
     text-align: center;
     margin-top: 3px;
     padding-top: 15px;
@@ -178,7 +180,7 @@ ul.navbar-container{
     
 }
 
-.review-box{
+.portfolio-box{
     text-align: center;
     justify-items: center;
     vertical-align:bottom;
@@ -187,27 +189,14 @@ ul.navbar-container{
 }
 
 .carosel-box:hover{
-    color:yellow;
+    color:rgb(16, 190, 31);;
 }
 
-
-.pictures-container{
-    background-color: rgb(102, 3, 168);
-    background-size: cover;
-    height: 500px;
-    width: auto;
-}
-
-.pictures-title{
-    text-align: center;
-    margin-top: 3px;
-    padding-top: 15px;
-}
 
 .contact-container{
     background-color: rgb(139, 94, 211);
     background-size: cover;
-    height: 200px;
+    height: 300px;
     width: auto;
 }
 
