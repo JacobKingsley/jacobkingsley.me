@@ -13,6 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
     height: 100%;
+    text-shadow: 2px 2px black;
 }
 
 nav{
@@ -151,7 +152,7 @@ video{
 
 .skills-container{
     background-size: cover;
-    height: 500px;
+    height: 450px;
     width: auto;
 }
 
@@ -177,7 +178,7 @@ video{
 }
 
 .language-title{
-    font-size: 24px;
+    font-size: 27px;
 }
 
 .languages-list{
@@ -185,7 +186,11 @@ video{
 }
 
 .language{
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.language:hover{
+    color:green;
 }
 
 .courses-flexbox{
@@ -196,11 +201,15 @@ video{
 }
 
 .course-title{
-    font-size: 24px;
+    font-size: 27px;
 }
 
 .course{
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.course:hover{
+    color:green;
 }
 
 .contact-container{
