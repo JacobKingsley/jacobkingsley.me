@@ -2,20 +2,20 @@
 //I had not learned js but wanted this functionality
 //adapted to fit this website
 
-function scrollOffClickSamples(){
+function scrollOffClickBio(){
   document.querySelector('.bio-container').scrollIntoView({ 
     behavior: 'smooth' 
   })
 }
-function scrollOffClickPictures(){
+function scrollOffClickSkills(){
   document.querySelector('.skills-container').scrollIntoView({ 
     behavior: 'smooth' 
-  })
+  }) 
 }
-function scrollOffClickReviews(){
+function scrollOffClickPortfolio(){
   document.querySelector('.portfolio-container').scrollIntoView({ 
     behavior: 'smooth' 
-  }) 
+  })
 }
 function scrollOffClickContactMe(){
     document.querySelector('.contact-container').scrollIntoView({ 
