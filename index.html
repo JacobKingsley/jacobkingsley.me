@@ -6,6 +6,7 @@
         <!-- Link to Poppins font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/abcdde1950.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             jacobkingsley.me
@@ -27,9 +28,6 @@
                             <div class="navbar-text" onclick="scrollOffClickSkills()">Skills</div>
                         </li>
                         <li class="navbar-item">
-                            <div class="navbar-text" onclick="scrollOffClickPortfolio()">Portfolio</div>
-                        </li>
-                        <li class="navbar-item">
                             <div class="navbar-text" onclick="scrollOffClickContactMe()">Contact Me</div>
                         </li>
                     </div>
@@ -46,13 +44,13 @@
             <div class="welcome-page-items-flexbox">
                 <div class="welcome-page-flexbox">
                     <div class="welcome-page-text-container">
-                        <h1 class="title">Hi! I'm Jacob</h1>
+                        <h1 class="title">Hi! I'm Jacob,</h1>
                         <div class="about">
                             Thanks for dropping by! I am a computer science and economics student at Dartmouth College experimenting
                         </div>
-                        <div class="propic">
-                            <img src="media/Propic.png">
-                        </div>
+                    </div>
+                    <div class="propic-container">
+                        <img src="media/Propic.png" id=propic>
                     </div>
                 </div>
                 <div class="welcome-image-container">
@@ -75,48 +73,25 @@
                 <h1 class="skills-title">Skills</h1>
             </div>
         </section>
-        <!-- Portfolio Section -->
-        <section class="portfolio">
-            <div class="portfolio-container">
-                <h1 class="portfolio-title">Portfolio (Recently Started But Growing Quickly!)</h1>
-                <div class="carosel">
-                    <ul class="carosel-container">
-                        <li id="carosel-item-1">
-                            <div class="carosel-box">
-                                <div class="portfolio-box">
-                                    This is an example review! I think the food is really good! Nancy is the best!
-                                </div>
-                            </div>
-                        </li>
-                        <li id="carosel-item-2">
-                            <div class="carosel-box">
-                                <div class="portfolio-box">
-                                    This is an example review! I think the food is really good! Nancy is the best!
-                                </div>
-                            </div>
-                        </li>
-                        <li id="carosel-item-3">
-                            <div class="carosel-box">
-                                <div class="portfolio-box">
-                                    This is an example review! I think the food is really good! Nancy is the best!
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
         <!-- Contact Section -->
         <section class="contact">
             <div class="contact-container">
                 <h1 class="contact-title">Contact Me!</h1>
                 <div class="contact-flex">
-                    <h3>Email: Jacob.P.Kingsley.23@Dartmouth.edu</h3>
-                    <h3>Phone: (617)-659-2546</h3>
+                    <a href="mailto:jacob.p.kingsley.23@Dartmouth.edu" class="email">Jacob.P.Kingsley.23@Dartmouth.edu</a>
+                    <a href="tel:6176592546" class="email">(617)-659-2546</a>
                 </div>
                 <div class="contact-flex">
-                    <h3>Email: Jacob.P.Kingsley.23@dartmouth.edu</h3>
-                    <h3>Phone: (617)-659-2546</h3>
+                    <a href="https://www.linkedin.com/in/jacob-kingsley-9b5169168/" class="link">
+                        <h1 class="fab fa-linkedin-in" id="linkedinicon"></h1>
+                    </a>
+                    <a href="https://github.com/jacobkingsley" class="link">
+                        <h1 class="fab fa-github" id="giticon"></h1>
+                    </a>
+                    <a href="https://www.instagram.com/jacob.p.kingsley/" class="link">
+                        <h1 class="fab fa-instagram"></h1>
+                    </a>
+                    
                 </div>
                 <div class="footer">
                     Website built by Jacob Kingsley May 2021
