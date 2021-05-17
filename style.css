@@ -77,6 +77,7 @@ video{
     right: 0;
     bottom: 0;
     object-fit: cover;
+    
 }
 
 #video-background{
@@ -89,12 +90,12 @@ video{
 
 .welcome-page-container{
     background-size: cover;
-    height:750px;
+    height:700px;
     width: 100%;
 }
 
 .welcome-page-text-container{
-    width:400px;
+    width:800px;
     height: 800px;
     text-align: center;
     margin-top: 170px;
@@ -107,9 +108,14 @@ video{
     align-items: center;
 }
 
+.title{
+    font-size: 40px;
+}
+
 .about{
     margin-left: 50px;
     margin-right: 50px;
+    font-size: 26px;
 
 }
 
@@ -135,7 +141,7 @@ video{
     margin-top: 3px;
     padding-top: 15px;
     margin-bottom: 3px;
-    font-size: 30px
+    font-size: 36px;
 }
 
 .bio-text{
@@ -153,10 +159,49 @@ video{
     text-align: center;
     margin-top: 3px;
     padding-top: 15px;
+    font-size: 36px;
 }
 
+.skills-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+}
 
+.languages-flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.language-title{
+    font-size: 24px;
+}
+
+.languages-list{
+    text-align: left;
+}
+
+.language{
+    font-size: 20px;
+}
+
+.courses-flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.course-title{
+    font-size: 24px;
+}
+
+.course{
+    font-size: 20px;
+}
 
 .contact-container{
     background-size: cover;
@@ -168,6 +213,7 @@ video{
     text-align: center;
     margin-top: 3px;
     padding-top: 15px;
+    font-size: 36px;
 }
 
 .contact-flex{
